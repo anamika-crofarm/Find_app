@@ -9,10 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Find">
-        <activity
-            android:name=".strtpage"
-            android:label="@string/title_activity_strtpage"
-            android:theme="@style/Theme.Find.NoActionBar"></activity>
         <activity android:name=".login" />
         <activity android:name=".MainActivity">
             <intent-filter>

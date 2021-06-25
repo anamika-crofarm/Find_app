@@ -7,17 +7,17 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
-TextView txtview;
+public class businessLogin extends AppCompatActivity {
+TextView txtv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        txtview = findViewById(R.id.Regtolog);
-        txtview.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_business_login);
+        txtv = findViewById(R.id.bLogintoReg);
+        txtv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,login.class);
+                Intent intent = new Intent(businessLogin.this,businessRegister.class);
                 startActivity(intent);
             }
         });

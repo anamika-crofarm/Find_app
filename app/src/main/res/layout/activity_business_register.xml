@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/picc"
-    tools:context=".MainActivity">
-
+    tools:context=".businessRegister">
 
     <TextView
         android:id="@+id/textView2"
@@ -29,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="User Register"
+        android:text="Register"
         android:textAllCaps="false"
         android:textColor="#B9E6EC"
         android:textSize="34sp"
@@ -40,7 +39,7 @@
         app:layout_constraintTop_toTopOf="@+id/bg" />
 
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/bsignup"
         android:layout_width="119dp"
         android:layout_height="43dp"
         android:layout_marginBottom="44dp"
@@ -52,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="@+id/bg"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="@+id/bg"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/beditText"
         app:layout_constraintVertical_bias="0.437" />
 
     <ImageView
@@ -68,7 +67,7 @@
         app:srcCompat="@drawable/bg" />
 
     <EditText
-        android:id="@+id/PersonName"
+        android:id="@+id/bPersonName"
         android:layout_width="248dp"
         android:layout_height="40dp"
         android:layout_marginStart="40dp"
@@ -86,7 +85,7 @@
         app:layout_constraintTop_toTopOf="@+id/bg" />
 
     <EditText
-        android:id="@+id/Password"
+        android:id="@+id/bPassword"
         android:layout_width="248dp"
         android:layout_height="40dp"
         android:layout_marginStart="40dp"
@@ -102,10 +101,10 @@
         android:textColorHint="#1A1B1A"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/bg"
-        app:layout_constraintTop_toBottomOf="@+id/PersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/bPersonName" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/bemail"
         android:layout_width="248dp"
         android:layout_height="40dp"
         android:layout_marginStart="40dp"
@@ -121,10 +120,10 @@
         android:textColorHint="#1A1B1A"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/bg"
-        app:layout_constraintTop_toBottomOf="@+id/Password" />
+        app:layout_constraintTop_toBottomOf="@+id/bPassword" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/beditText"
         android:layout_width="248dp"
         android:layout_height="40dp"
         android:layout_marginStart="40dp"
@@ -139,7 +138,7 @@
         android:paddingLeft="10dp"
         android:textColorHint="#1A1B1A"
         app:layout_constraintStart_toStartOf="@+id/bg"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/bemail" />
 
     <TextView
         android:id="@+id/textView3"
@@ -147,17 +146,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-
         android:text="Already have an accound?"
         android:textColor="#02121E"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signup" />
+        app:layout_constraintTop_toBottomOf="@+id/bsignup" />
 
     <TextView
-        android:id="@+id/Regtolog"
+        android:id="@+id/bRegtolog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"

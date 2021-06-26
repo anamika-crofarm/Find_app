@@ -11,6 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:fontFamily="cursive"
         android:text="Find"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -19,7 +20,7 @@
         android:textStyle="bold"
         app:drawableLeftCompat="@drawable/ic_baseline_search_24"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,28 +44,29 @@
         android:layout_width="119dp"
         android:layout_height="43dp"
         android:layout_marginBottom="44dp"
-        android:background="@drawable/bg"
         android:text="Sign up"
+        android:background="@drawable/btn"
         android:textColor="@color/white"
-        app:backgroundTint="#B25C8EF3"
-        app:backgroundTintMode="add"
+        app:backgroundTint="@color/purple_500"
+        app:backgroundTintMode="multiply"
         app:layout_constraintBottom_toBottomOf="@+id/bg"
         app:layout_constraintEnd_toEndOf="@+id/bg"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="@+id/bg"
         app:layout_constraintTop_toBottomOf="@+id/beditText"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.342" />
 
     <ImageView
         android:id="@+id/bg"
-        android:layout_width="327dp"
-        android:layout_height="525dp"
+        android:layout_width="338dp"
+        android:layout_height="584dp"
         android:layout_marginTop="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.364"
+        app:layout_constraintVertical_bias="0.641"
         app:srcCompat="@drawable/bg" />
 
     <EditText
@@ -145,7 +147,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="casual"
         android:text="Already have an accound?"
         android:textColor="#02121E"
@@ -155,19 +157,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bsignup" />
 
-    <TextView
+    <Button
         android:id="@+id/bRegtolog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:text="Login"
-        android:textColor="#032239"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/material_on_primary_disabled"
+        app:backgroundTintMode="multiply"
+        app:layout_constraintEnd_toEndOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintTop_toBottomOf="@+id/bsignup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

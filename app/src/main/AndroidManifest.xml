@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Find">
-        <activity android:name=".businessRegister"></activity>
-        <activity android:name=".businessLogin" />
+        <activity android:name=".homePage"></activity>
         <activity android:name=".startpage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

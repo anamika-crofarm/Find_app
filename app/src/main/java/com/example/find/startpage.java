@@ -13,8 +13,8 @@ Button userbtn, bsbtn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startpage);
-    userbtn = findViewById(R.id.uloginbtn);
-    bsbtn = findViewById(R.id.bloginbtn);
+    userbtn = findViewById(R.id.loginbtn);
+    bsbtn = findViewById(R.id.regbtn);
 
     userbtn.setOnClickListener(new View.OnClickListener() {
         @Override
@@ -27,7 +27,7 @@ Button userbtn, bsbtn;
         bsbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(startpage.this,businessLogin.class);
+                Intent intent = new Intent(startpage.this,MainActivity.class);
                 startActivity(intent);
             }
         });

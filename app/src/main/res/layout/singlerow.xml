@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#FAFAFB">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textname"
+            android:fontFamily="@font/gilroy"
+            android:text="Name"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#021039"/>
+
+        <TextView
+            android:id="@+id/textadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textname"
+            android:paddingLeft="20dp"
+            android:text="This"
+            android:textColor="#030642"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/calls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textadd"
+            android:textSize="16sp"
+            android:text="Number"
+            android:textColor="#030642"
+            android:paddingLeft="20dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="0dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/location"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/call"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="30dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/phn" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

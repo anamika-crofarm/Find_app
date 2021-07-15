@@ -1,67 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/piccc"
+    android:background="@color/black"
     tools:context=".startpage">
 
-    <TextView
-        android:layout_width="196dp"
-        android:layout_height="77dp"
-        android:fontFamily="@font/allura"
-        android:text="Welcome to"
-        android:textColor="@color/black"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="30dp"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:src="@drawable/viewhome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:layout_marginLeft="30dp"
-        android:fontFamily="cursive"
-        android:text="Find"
-        android:textColor="#082255"
-        android:textSize="50sp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/gilroy"
+        android:text="Essential services"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:layout_gravity="center"
-        app:drawableLeftCompat="@drawable/ic_baseline_search_24" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="347dp"
+        android:layout_height="368dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/animetiontwo" />
 
     <TextView
-        android:layout_width="214dp"
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="230dp"
-        android:layout_marginLeft="30dp"
-        android:fontFamily="@font/allura"
-        android:text="Essential services near me"
-        android:textColor="#0A1653"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gilroy"
+        android:text="Everything "
+        android:textColor="@color/white"
         android:textSize="34sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottie" />
+
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gilroy"
+        android:layout_marginRight="20dp"
+        android:text="You want you will get here \nEvery service will be the best one"
+        android:textColor="#AE59EA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/two" />
 
     <Button
-        android:id="@+id/loginbtn"
+        android:id="@+id/uloginbtn"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="550dp"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="20dp"
         android:background="@drawable/bg"
-        android:text="login"
-        android:textColor="@color/white"
-        app:backgroundTint="#97222AC5"
-         />
+        android:text="User login"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bloginbtn"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/three" />
 
     <Button
-        android:id="@+id/regbtn"
-        android:layout_width="130dp"
+        android:id="@+id/bloginbtn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="550dp"
-        android:layout_marginLeft="210dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
         android:background="@drawable/bg"
-        android:text="Register"
-        android:textColor="@color/white"
-        app:backgroundTint="#97222AC5" />
-</RelativeLayout>
+        android:text="Business login"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/three" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

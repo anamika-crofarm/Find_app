@@ -5,7 +5,10 @@ public class UserData {
 
     }
 
-    private String name, password, email, phno;
+     String name, password, email, phno;
+
+//    public UserData(String name, String password, String email, String phno, String radio) {
+//    }
 
     public String getName() {
         return name;
@@ -38,6 +41,8 @@ public class UserData {
     public void setPhno(String phno) {
         this.phno = phno;
     }
+
+
 
     public  UserData(String name,String password,String email, String phno){
         this.name=name;

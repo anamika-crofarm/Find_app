@@ -70,10 +70,7 @@ public class login extends AppCompatActivity {
             }
         });
 
-        imgbg = findViewById(R.id.imgbg);
-        imgbg.setTranslationY(300);
-        imgbg.setAlpha(v);
-        imgbg.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(80).start();
+
 
         img = findViewById(R.id.img);
         img.setTranslationY(100);
@@ -111,45 +108,45 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-            email = useremail.getText().toString().trim();
-            password = userpass.getText().toString().trim();
-            if (email.isEmpty()){
-                useremail.setError("Enter your email");
-                useremail.requestFocus();
-                return;
-            }
-            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                useremail.setError("Please enter a valid email");
-                useremail.requestFocus();
-                return;
-            }
-            if (password.isEmpty()){
-                userpass.setError("Enter your password");
-                userpass.requestFocus();
-                return;
-            }
-            if (password.length()<6){
-                userpass.setError("Min password length is 6 characters");
-                userpass.requestFocus();
-                return;
-            }
-            progressBar.setVisibility(View.VISIBLE);
+                email = useremail.getText().toString().trim();
+                password = userpass.getText().toString().trim();
+                if (email.isEmpty()){
+                    useremail.setError("Enter your email");
+                    useremail.requestFocus();
+                    return;
+                }
+                if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                    useremail.setError("Please enter a valid email");
+                    useremail.requestFocus();
+                    return;
+                }
+                if (password.isEmpty()){
+                    userpass.setError("Enter your password");
+                    userpass.requestFocus();
+                    return;
+                }
+                if (password.length()<6){
+                    userpass.setError("Min password length is 6 characters");
+                    userpass.requestFocus();
+                    return;
+                }
+                progressBar.setVisibility(View.VISIBLE);
 
-            mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
-                    if (task.isSuccessful()){
-                        Toast.makeText(login.this,"Login Successful",Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(login.this, BottomNavi.class));
+                mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
+                        if (task.isSuccessful()){
+                            Toast.makeText(login.this,"Login Successful",Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(login.this, BottomNavi.class));
+                            progressBar.setVisibility(View.GONE);
+                            finish();
+
+                        }
+                        else Toast.makeText(login.this,"Failed to Login! Check your details",Toast.LENGTH_LONG).show();
                         progressBar.setVisibility(View.GONE);
-                       finish();
 
                     }
-                    else Toast.makeText(login.this,"Failed to Login! Check your details",Toast.LENGTH_LONG).show();
-                    progressBar.setVisibility(View.GONE);
-
-                }
-            });
+                });
 
 
             }

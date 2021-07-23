@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     tools:context=".home">
 
     <ImageView
@@ -67,7 +67,7 @@
         android:layout_marginTop="108dp"
         android:fontFamily="@font/gilroy"
         android:text="Find Services\nnear you"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"

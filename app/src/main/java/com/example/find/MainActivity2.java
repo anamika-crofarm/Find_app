@@ -73,10 +73,6 @@ public class MainActivity2 extends AppCompatActivity {
 
 
 
-        imgbg.setTranslationY(300);
-        imgbg.setAlpha(v);
-        imgbg.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(80).start();
-
         imguser.setTranslationY(300);
         imguser.setAlpha(v);
         imguser.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(100).start();

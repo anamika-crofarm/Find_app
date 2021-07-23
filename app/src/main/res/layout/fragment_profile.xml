@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     tools:context=".profileFragment">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="239dp"
-        android:background="@color/black"
+        android:background="@color/white"
         android:src="@drawable/viewhome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/gilroy"
         android:text="Account info"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -86,7 +86,7 @@
             android:layout_marginLeft="80dp"
             android:layout_marginTop="5dp"
             android:text="Name:"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="25dp" />
 
         <TextView
@@ -97,7 +97,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginLeft="80dp"
            android:layout_marginTop="40dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16dp" />
 
 
@@ -120,6 +120,7 @@
             android:layout_width="52dp"
             android:layout_height="52dp"
             android:layout_marginLeft="14dp"
+            app:lottie_autoPlay="true"
             app:lottie_rawRes="@raw/email" />
 
         <TextView
@@ -129,7 +130,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="80dp"
             android:text="Email:"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="25dp" />
 
         <TextView
@@ -140,7 +141,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="40dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16dp" />
     </RelativeLayout>
 
@@ -160,6 +161,7 @@
             android:layout_width="77dp"
             android:layout_height="77dp"
             android:layout_marginLeft="2dp"
+            app:lottie_autoPlay="true"
             app:lottie_rawRes="@raw/phn" />
 
         <TextView
@@ -168,7 +170,7 @@
             android:layout_marginLeft="80dp"
             android:layout_marginTop="5dp"
             android:text="Phone:"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="25dp" />
 
         <TextView
@@ -179,7 +181,7 @@
             android:layout_marginLeft="80dp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="20dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16dp" />
     </RelativeLayout>
 

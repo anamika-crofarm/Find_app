@@ -1,5 +1,6 @@
 package com.example.find;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -9,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -69,6 +71,7 @@ public class MyAdapter extends FirebaseRecyclerAdapter<businessdata,MyAdapter.my
                     String number = no.getText().toString();
                     Intent intent = new Intent(Intent.ACTION_CALL);
                     intent.setData(Uri.parse("tel:"+number));
+                    ActivityCompat.requestPermissions((Activity) itemView.getContext(),new String[]{CALL_PHONE},102);
                     if (ContextCompat.checkSelfPermission(itemView.getContext(),CALL_PHONE) == PackageManager.PERMISSION_GRANTED){
                         itemView.getContext().startActivity(intent);
                     }

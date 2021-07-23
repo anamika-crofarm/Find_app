@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="130dp"
-        android:background="#FAFAFB">
+        android:background="@color/white">
 
         <TextView
             android:layout_width="match_parent"
@@ -48,9 +48,9 @@
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/btn"
             android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="0dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="50dp"
             app:lottie_autoPlay="true"
             app:lottie_rawRes="@raw/location"/>
 
@@ -59,7 +59,7 @@
             android:layout_width="68dp"
             android:layout_height="68dp"
             android:layout_marginLeft="300dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             app:lottie_autoPlay="true"
             app:lottie_rawRes="@raw/phn" />
 

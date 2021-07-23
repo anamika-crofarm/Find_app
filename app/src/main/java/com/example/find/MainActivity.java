@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     Button submit;
     EditText uname,upass,uemail,uphn;
     TextView txt,textview;
-    String name, email,password,phno,radio;
+    String name, email,password,phno;
     ProgressBar progressBar;
     TextInputLayout txt1,txt2,txt3,txt4;
 
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageview.setTranslationY(300);
         imageview.setAlpha(v);
-        imageview.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(2300).start();
+        imageview.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(2000).start();
 
 
 

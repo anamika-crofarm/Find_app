@@ -70,10 +70,7 @@ public class login extends AppCompatActivity {
             }
         });
 
-        imgbg = findViewById(R.id.imgbg);
-        imgbg.setTranslationY(300);
-        imgbg.setAlpha(v);
-        imgbg.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(80).start();
+
 
         img = findViewById(R.id.img);
         img.setTranslationY(100);

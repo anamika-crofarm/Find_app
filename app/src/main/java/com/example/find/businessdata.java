@@ -34,7 +34,6 @@ public class businessdata {
     }
 
 
-
     public String getEmail() {
         return email;
     }

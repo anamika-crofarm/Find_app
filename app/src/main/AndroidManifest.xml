@@ -18,7 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Find">
-        <activity android:name=".change"></activity>
+        <activity android:name=".changeuserpassword"></activity>
         <activity android:name=".EditDetails" />
         <activity android:name=".addBusiness" />
         <activity android:name=".w_bottomNavi">

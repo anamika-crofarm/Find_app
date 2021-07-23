@@ -169,16 +169,16 @@
         app:endIconMode="clear_text"
         app:startIconTint="#000000">
 
-        <EditText
-            android:id="@+id/Workeremail"
-            android:layout_width="248dp"
-            android:layout_height="55dp"
-            android:background="@drawable/edittxtview"
-            android:backgroundTint="#5ACDEA"
-            android:fontFamily="@font/gilroy"
-            android:textColor="@color/black"
-            android:inputType="textEmailAddress"
-            />
+    <EditText
+        android:id="@+id/Workeremail"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edittxtview"
+        android:backgroundTint="#5ACDEA"
+        android:fontFamily="@font/gilroy"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout3"
@@ -196,15 +196,15 @@
         app:startIconDrawable="@drawable/ic_baseline_phone_android_24"
         app:endIconMode="clear_text"
         app:startIconTint="#000000">
-        <EditText
-            android:id="@+id/Workermobile"
-            android:layout_width="248dp"
-            android:layout_height="55dp"
-            android:background="@drawable/edittxtview"
-            android:backgroundTint="#5ACDEA"
-            android:inputType="phone"
-            android:fontFamily="@font/gilroy"
-            android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/Workermobile"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edittxtview"
+        android:backgroundTint="#5ACDEA"
+        android:inputType="phone"
+        android:fontFamily="@font/gilroy"
+        android:textColor="@color/black" />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
@@ -222,15 +222,15 @@
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
         app:endIconMode="password_toggle"
         app:startIconTint="#000000">
-        <EditText
-            android:id="@+id/WorkerPassword"
-            android:layout_width="248dp"
-            android:layout_height="55dp"
-            android:background="@drawable/edittxtview"
-            android:backgroundTint="#5ACDEA"
-            android:fontFamily="@font/gilroy"
-            android:inputType="textPassword"
-            android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/WorkerPassword"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edittxtview"
+        android:backgroundTint="#5ACDEA"
+        android:fontFamily="@font/gilroy"
+        android:inputType="textPassword"
+        android:textColor="@color/black" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -249,16 +249,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
         app:startIconDrawable="@drawable/age"
         app:startIconTint="#000000">
-        <EditText
-            android:id="@+id/age"
-            android:layout_width="248dp"
-            android:layout_height="55dp"
-            android:background="@drawable/edittxtview"
-            android:backgroundTint="#5ACDEA"
-            android:fontFamily="@font/gilroy"
-            android:inputType="number"
-            android:textColor="@color/black"  />
-    </com.google.android.material.textfield.TextInputLayout>
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edittxtview"
+        android:backgroundTint="#5ACDEA"
+        android:fontFamily="@font/gilroy"
+        android:inputType="number"
+        android:textColor="@color/black"  />
+</com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/signup"

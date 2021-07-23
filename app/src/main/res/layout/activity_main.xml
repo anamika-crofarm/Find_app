@@ -151,15 +151,15 @@
         app:startIconDrawable="@drawable/ic_baseline_account_circle_24"
         app:endIconMode="clear_text"
         app:startIconTint="#000000">
-        <EditText
-            android:id="@+id/PersonName"
-            android:layout_width="248dp"
-            android:layout_height="55dp"
-            android:background="@drawable/edittxtview"
-            android:backgroundTint="#5ACDEA"
-            android:fontFamily="@font/gilroy"
-            android:inputType="textPersonName"
-            android:textColor="@color/black"  />
+    <EditText
+        android:id="@+id/PersonName"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edittxtview"
+        android:backgroundTint="#5ACDEA"
+        android:fontFamily="@font/gilroy"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"  />
     </com.google.android.material.textfield.TextInputLayout>
 
 

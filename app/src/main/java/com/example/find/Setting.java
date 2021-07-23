@@ -42,7 +42,7 @@ TextView  change, logout;
         change.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),change.class));
+                startActivity(new Intent(getActivity(), changeuserpassword.class));
             }
         });
         logout = view.findViewById(R.id.logout);

@@ -23,8 +23,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -40,8 +38,6 @@ public class maps extends FragmentActivity implements OnMapReadyCallback {
     Location currentLocation;
     FusedLocationProviderClient fusedLocationProviderClient;
     public static final int REQUEST_CODE = 101;
-    FirebaseDatabase firebaseDatabase ;
-    DatabaseReference databaseReference ;
     Geocoder geocoder;
 
     @Override
@@ -99,20 +95,7 @@ public class maps extends FragmentActivity implements OnMapReadyCallback {
 
         } catch (IOException e) {
             e.printStackTrace();
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+        } }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NotNull String[] permissions, @NonNull int[] grantResults) {

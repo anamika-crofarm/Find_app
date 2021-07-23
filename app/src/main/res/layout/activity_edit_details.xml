@@ -229,7 +229,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:hint="Current Password"
         app:endIconMode="password_toggle"
-        app:endIconTint="#0000FF"
+        app:endIconTint="#082E7E"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout5">
 
         <com.google.android.material.textfield.TextInputEditText

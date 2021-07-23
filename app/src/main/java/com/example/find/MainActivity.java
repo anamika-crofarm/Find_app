@@ -125,31 +125,31 @@ public class MainActivity extends AppCompatActivity {
                     uname.requestFocus();
                     return;
                 }
-                if (email.isEmpty()){
-                    uemail.setError("Email is required");
-                    uemail.requestFocus();
-                    return;
-                }
-                if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                    uemail.setError("Please enter a valid email");
-                    uemail.requestFocus();
-                    return;
-                }
-                if (password.isEmpty()){
-                    upass.setError("Password is required");
-                    upass.requestFocus();
-                    return;
-                }
-                if (password.length()<6){
-                    upass.setError("Min password length should be 6 characters!!");
-                    upass.requestFocus();
-                    return;
-                }
+                 if (email.isEmpty()){
+                     uemail.setError("Email is required");
+                     uemail.requestFocus();
+                     return;
+                 }
+                 if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                     uemail.setError("Please enter a valid email");
+                     uemail.requestFocus();
+                     return;
+                 }
+                 if (password.isEmpty()){
+                     upass.setError("Password is required");
+                     upass.requestFocus();
+                     return;
+                 }
+                 if (password.length()<6){
+                     upass.setError("Min password length should be 6 characters!!");
+                     upass.requestFocus();
+                     return;
+                 }
                 if(phno.isEmpty()){
-                    uphn.setError("Phone No. is required");
-                    uphn.requestFocus();
-                    return;
-                }
+                     uphn.setError("Phone No. is required");
+                     uphn.requestFocus();
+                     return;
+                 }
                 if (!Patterns.PHONE.matcher(phno).matches()){
                     uphn.setError("Enter the correct Phone No!!");
                     uphn.requestFocus();
@@ -161,10 +161,10 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-    }
+}
 
     private void addDataToFirestore(String name, String password, String email, String phno) {
-        //       UserData user = new UserData(name,password,email,phno);
+ //       UserData user = new UserData(name,password,email,phno);
 //        fb.collection("User").add(user).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
 //            @Override
 //            public void onSuccess(DocumentReference documentReference) {
@@ -211,4 +211,4 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-}
+    }

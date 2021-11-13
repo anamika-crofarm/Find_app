@@ -1,0 +1,83 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,5 +1,53 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Find/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2703125" />
++        <entry key="..\:/Find/app/src/main/res/drawable/viewhome.xml" value="0.2703125" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_bottom_navi.xml" value="0.25416666666666665" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_changeuserpassword.xml" value="0.23854166666666668" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_edit_details.xml" value="0.25416666666666665" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_forget.xml" value="0.23854166666666668" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_home.xml" value="0.2" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_login.xml" value="0.23854166666666668" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_searches.xml" value="0.12360688956433637" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_splash.xml" value="0.23854166666666668" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_startpage.xml" value="0.23854166666666668" />
++        <entry key="..\:/Find/app/src/main/res/layout/activity_wbottom_navi.xml" value="0.25416666666666665" />
++        <entry key="..\:/Find/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
++        <entry key="..\:/Find/app/src/main/res/layout/fragment_profile2.xml" value="0.25416666666666665" />
++        <entry key="..\:/Find/app/src/main/res/layout/fragment_setting.xml" value="0.25416666666666665" />
++        <entry key="..\:/Find/app/src/main/res/layout/fragment_whome.xml" value="0.25416666666666665" />
++        <entry key="..\:/Find/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/drawable/border.xml" value="0.2526041666666667" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/drawable/bubble1.xml" value="0.2526041666666667" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/drawable/edittxtview.xml" value="0.2526041666666667" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/drawable/viewhome.xml" value="0.2526041666666667" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_add_business.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_bottom_navi.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_changeuserpassword.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_edit_details.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_forget.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_home.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_login.xml" value="0.264" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_main2.xml" value="0.1793478260869565" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_maps.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_searches.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_splash.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_startpage.xml" value="0.264" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_wbottom_navi.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/activity_worker_register.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/fragment_profile.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/fragment_profile2.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/fragment_setting.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/fragment_whome.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/item_list.xml" value="0.23645833333333333" />
++        <entry key="..\:/Users/shars/AndroidStudioProjects/Find/app/src/main/res/layout/singlerow.xml" value="0.23645833333333333" />
++      </map>
++    </option>
++  </component>
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	
++++ b/.idea/gradle.xml	
+@@ -4,7 +4,7 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+-        <option name="testRunner" value="PLATFORM" />
++        <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+         <option name="modules">

@@ -75,7 +75,7 @@
         android:drawablePadding="15dp"
         android:paddingLeft="20dp"
         android:paddingRight="29dp"
-        android:backgroundTint="#51EDED"
+        android:backgroundTint="@color/white"
         android:hint="Enter your email id"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"

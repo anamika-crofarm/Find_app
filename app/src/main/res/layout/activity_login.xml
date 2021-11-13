@@ -89,17 +89,6 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="______________________"
-        android:textColor="#0364DA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.152"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
         android:id="@+id/sign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -127,26 +116,25 @@
         app:layout_constraintVertical_bias="0.774"
         app:srcCompat="@drawable/bg" />
 
+
     <ImageView
         android:id="@+id/img"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/bbb"
         app:layout_constraintEnd_toEndOf="@+id/imgbg"
         app:layout_constraintStart_toStartOf="@+id/imgbg"
         app:layout_constraintTop_toTopOf="@+id/imgbg" />
-
 
     <EditText
         android:id="@+id/LoginEmail"
         android:layout_width="248dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/edittxtview"
-        android:backgroundTint="#5ACDEA"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
         android:backgroundTintMode="multiply"
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:drawablePadding="10dp"
@@ -156,7 +144,7 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/imgbg"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="@+id/imgbg"
         app:layout_constraintTop_toBottomOf="@+id/img" />
 
@@ -166,8 +154,7 @@
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:background="@drawable/edittxtview"
-        android:backgroundTint="#5ACDEA"
+        android:background="@drawable/border"
         android:backgroundTintMode="multiply"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:drawablePadding="10dp"
@@ -233,7 +220,7 @@
         android:fontFamily="@font/gilroy"
         android:gravity="center"
         android:text="Forget password?"
-        android:textColor="@color/blue"
+        android:textColor="#0F26F1"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="@+id/imgbg"
         app:layout_constraintHorizontal_bias="0.502"

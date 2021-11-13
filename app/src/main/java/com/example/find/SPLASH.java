@@ -12,7 +12,7 @@ import com.airbnb.lottie.LottieAnimationView;
 
 public class SPLASH extends AppCompatActivity {
 
-TextView txt;
+TextView txt,txt2;
 LottieAnimationView lottieAnimationView;
 
 
@@ -38,6 +38,6 @@ LottieAnimationView lottieAnimationView;
                 startActivity(intent);
                 finish();
             }
-        },5550);
+        },3000);
     }
 }

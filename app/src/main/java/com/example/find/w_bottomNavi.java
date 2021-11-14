@@ -1,13 +1,11 @@
 package com.example.find;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
-import com.google.firebase.auth.FirebaseAuth;
 
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
@@ -25,7 +23,7 @@ public class w_bottomNavi extends AppCompatActivity {
         //setting icons
         bottomNavigation.add(new MeowBottomNavigation.Model(1,R.drawable.ic_baseline_account_circle_24));
         bottomNavigation.add(new MeowBottomNavigation.Model(2,R.drawable.ic_home));
-        bottomNavigation.add(new MeowBottomNavigation.Model(3,R.drawable.ic_exit));
+        bottomNavigation.add(new MeowBottomNavigation.Model(3,R.drawable.ic_baseline_settings_24));
 
 
         //for showing fragments
@@ -41,9 +39,11 @@ public class w_bottomNavi extends AppCompatActivity {
                         fragment = new Whome();
                         break;
                     case 3:
-                        FirebaseAuth.getInstance().signOut();
-                        startActivity(new Intent(w_bottomNavi.this,startpage.class));
+                        fragment = new Setting();
                         break;
+//                        FirebaseAuth.getInstance().signOut();
+//                        startActivity(new Intent(w_bottomNavi.this,startpage.class));
+
                 }
                 loadFragment(fragment);
                 return null;

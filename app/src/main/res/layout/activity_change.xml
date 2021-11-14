@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".changeuserpassword">
+    tools:context=".change">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="190dp"
         android:src="@drawable/viewhome" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/gilroy"
         android:gravity="center"
         android:text="Change Password"
@@ -31,10 +31,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
-        app:startIconTint="#000000"
-        android:textColorHint="#000000"
-        app:boxStrokeColor="#000000"
-        app:hintTextColor="#000000"
+        app:startIconTint="#0000FF"
+        android:textColorHint="#0000FF"
+        app:boxStrokeColor="#0000FF"
+        app:hintTextColor="#0000FF"
         app:boxStrokeWidth="3dp"
         app:boxCornerRadiusBottomEnd="30dp"
         app:boxCornerRadiusBottomStart="30dp"
@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:hint="Current Password"
         app:endIconMode="password_toggle"
-        app:endIconTint="#000000"
+        app:endIconTint="#0000FF"
        android:layout_below="@id/imageView">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -65,10 +65,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
-        app:startIconTint="#000000"
-        android:textColorHint="#000000"
-        app:boxStrokeColor="#000000"
-        app:hintTextColor="#000000"
+        app:startIconTint="#0000FF"
+        android:textColorHint="#0000FF"
+        app:boxStrokeColor="#0000FF"
+        app:hintTextColor="#0000FF"
         app:boxStrokeWidth="3dp"
         app:boxCornerRadiusBottomEnd="30dp"
         app:boxCornerRadiusBottomStart="30dp"
@@ -78,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:hint="New Password"
         app:endIconMode="password_toggle"
-        app:endIconTint="#000000"
+        app:endIconTint="#0000FF"
         android:layout_below="@id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText

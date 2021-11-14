@@ -12,7 +12,7 @@ import com.airbnb.lottie.LottieAnimationView;
 
 public class startpage extends AppCompatActivity {
 Button userbtn, bbtn;
-TextView one;
+TextView one,txt,txt2;
 LottieAnimationView lottieAnimationView;
 float v=0;
     @Override
@@ -24,8 +24,20 @@ float v=0;
     one = findViewById(R.id.one);
 //    two = findViewById(R.id.two);
     lottieAnimationView = findViewById(R.id.lottie);
+    txt = findViewById(R.id.three);
+    txt2 = findViewById(R.id.two);
 
+        one.setTranslationY(0);
+        one.setAlpha(v);
+        one.animate().translationY(75).alpha(1).setDuration(1500).setStartDelay(100).start();
 
+        txt.setTranslationY(100);
+        txt.setAlpha(v);
+        txt.animate().translationY(0).alpha(1).setDuration(1500).setStartDelay(100).start();
+
+        txt2.setTranslationX(100);
+        txt2.setAlpha(v);
+        txt2.animate().translationX(0).alpha(1).setDuration(1900).setStartDelay(100).start();
 
     userbtn.setOnClickListener(new View.OnClickListener() {
         @Override

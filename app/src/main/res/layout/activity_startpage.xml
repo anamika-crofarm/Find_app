@@ -77,11 +77,8 @@
         android:text="You want you will get here\nEvery service will be the best one"
         android:textColor="#0964C6"
         android:textSize="18sp"
-        android:layout_marginLeft="7.5dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.382"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/two"
         app:layout_constraintTop_toBottomOf="@+id/two" />
 
     <Button

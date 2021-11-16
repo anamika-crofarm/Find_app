@@ -20,12 +20,18 @@
         android:theme="@style/Theme.Find">
         <activity android:name=".changeuserpassword"></activity>
         <activity android:name=".EditDetails" />
-        <activity android:name=".addBusiness" />
+        <activity android:name=".addBusiness"
+            android:exported="true">
+
+        </activity>
         <activity android:name=".w_bottomNavi">
 
         </activity>
         <activity android:name=".forget" />
-        <activity android:name=".BottomNavi" />
+        <activity android:name=".BottomNavi"
+            android:exported="true">
+
+        </activity>
         <activity android:name=".Searches" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -42,12 +48,18 @@
         <activity
             android:name=".maps"
             android:label="@string/title_activity_one" />
-        <activity android:name=".SPLASH"> <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SPLASH"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
-        <activity android:name=".startpage" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        <activity android:name=".startpage"
+            android:exported="true">
+
+        </activity>
         <activity android:name=".login"> </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".MainActivity2" />

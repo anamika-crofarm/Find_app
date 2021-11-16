@@ -11,16 +11,15 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView3"
-        android:layout_width="227dp"
-        android:layout_height="235dp"
-        android:layout_marginStart="212dp"
-        android:layout_marginLeft="212dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="249dp"
+        android:layout_height="264dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_rawRes="@raw/userprofile" />
-
 
     <TextView
         android:id="@+id/nametxt"
@@ -41,22 +40,19 @@
         android:id="@+id/namee"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="28dp"
         android:fontFamily="@font/gilroy"
         android:textColor="#0F26F1"
-        android:textSize="29dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/nametxt"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/nametxt"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/nametxt" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="160dp"
         android:fontFamily="@font/gilroy"
         android:text="Find Services\nnear you"
         android:textColor="@color/black"

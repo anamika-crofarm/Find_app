@@ -1,4 +1,4 @@
 # essential service
-Find daily essential services near you
+Find daily essential services in your area
 
-Made by us
+

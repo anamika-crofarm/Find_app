@@ -1,12 +1,19 @@
 # Find Essential Services
 
-# About
+## About ##
 Essential services is an android application to find the daily need services near us
 
-# Features
+## Features ##
 Easy contact between businessmen and user through this android application.
 Included:
+* User Login & Sign up
+* Businessmen Login & Sign up
+* Find services according to category
+* Finding near by services
+* Contact with the businessmen
+* Add services (for businessmen)
 
+## Preview
 ![image](https://user-images.githubusercontent.com/83755934/156882213-d6231fdb-51cf-4777-8430-a82db74e6070.png)
 ![image](https://user-images.githubusercontent.com/83755934/156882252-c45b7909-5742-4ecb-8809-904ce8a0641d.png)
 

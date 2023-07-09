@@ -58,7 +58,7 @@ MeowBottomNavigation bottomNavigation;
             }
         });
     }
-//grgse
+
     private void loadFragment(Fragment fragment) {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout,fragment).commit();
     }

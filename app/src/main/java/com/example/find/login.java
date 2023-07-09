@@ -126,7 +126,7 @@ public class login extends AppCompatActivity {
                 return;
             }
             if (password.length()<6){
-                userpass.setError("Min password length is 6 characters");
+                userpass.setError("Minimum password length is 6 characters");
                 userpass.requestFocus();
                 return;
             }
